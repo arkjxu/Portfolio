@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Irchy",
+        "status": "Senior Project",
+        "logo": "img/irchy.png",
+        "route": "#"
+    },
+    {
+        "name": "Education for Revitalization",
+        "status": "Junior Project",
+        "logo": "img/e4r.png",
+        "route": "#"
+    },
+    {
+        "name": "Tio",
+        "status": "Personal Project",
+        "logo": "img/tio.png",
+        "route": "#"
+    }
+]

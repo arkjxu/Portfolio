@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "Portfolio",
+    "alias": "arkjxu.com",
+    "builds": [
+      { "src": "package.json", "use": "@now/static-build" },
+      {"src": "static/*", "use": "@now/static"}
+    ]
+  }

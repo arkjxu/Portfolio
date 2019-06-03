@@ -7,7 +7,7 @@
             <nuxt-link class="m-links" to="/portfolio">Portfolio</nuxt-link>
         </span>
         <span class="m-options">
-            <a href="/Resume.pdf" target="_blank" class="m-links">Resume</a>
+            <a href="/resume.pdf" target="_blank" class="m-links">Resume</a>
         </span>
         <span class="m-options">
             <nuxt-link class="m-links" to="/interaction">Interaction</nuxt-link>
@@ -139,6 +139,9 @@ export default {
     }
     .m-links::before {
         display: none;
+    }
+    .nuxt-link-exact-active {
+        color: rgba(0,136,255,1);
     }
 }
 </style>

@@ -18,7 +18,9 @@ export default {
     }
   },
   mounted() {
+    window ? this.$store.dispatch("setWindowWidth", window.innerWidth) : null;
     window ? window.addEventListener('resize', this.windowResize) : null;
+    console.log(this.getWindowWidth);
   },
   beforeDestroy() {
     window ? window.removeEventListener('resize', this.windowResize) : null;
@@ -118,15 +120,6 @@ body > :first-child > :first-child,
 }
 
 @media(max-width: 700px) {
-  body {
-    background-color: white;
-  }
-  .page-leave-active {
-    transform: translateY(100%);
-  }
-  .page-enter {
-    transform: translateY(100%);
-  }
   .resume-layout {
     padding-bottom: 60px;
   }

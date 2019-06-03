@@ -28,15 +28,10 @@ export default {};
   position: absolute;
   width: 100%;
   height: 0;
-  top: 100%;
+  top: calc(100% - 2px);
 }
 .page-enter .shape,
 .page-leave-active .shape {
   height: 700px;
-}
-@media (max-width: 700px) {
-  .shape {
-    display: none;
-  }
 }
 </style>

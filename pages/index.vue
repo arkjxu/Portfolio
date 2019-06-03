@@ -2,6 +2,13 @@
   <transition>
     <div class="resume">
       <section class="intro">
+        <div class="author-info">
+          <h1 class="author-name">Kevin Xu</h1>
+          <div class="author-location">
+            <i class="iconfont">&#xeca9;</i>
+            <span class="location-name">Klamath Falls, OR</span>
+          </div>
+        </div>
         <div class="intro-field">
           <no-ssr>
             <vue-typer
@@ -29,13 +36,6 @@
             class="social iconfont"
           >&#xe65c;</a>
           <a href="mailto:kevinjw.xu@gmail.com" target="_blank" class="social iconfont">&#xe602;</a>
-        </div>
-        <div class="author-info">
-          <h1 class="author-name">Kevin Xu</h1>
-          <div class="author-location">
-            <i class="iconfont">&#xeca9;</i>
-            <span class="location-name">Klamath Falls, OR</span>
-          </div>
         </div>
       </section>
       <Trail/>
@@ -68,6 +68,7 @@ export default {
 .resume {
   background-color: white;
 }
+
 .resume,
 .intro {
   height: 100%;
@@ -77,9 +78,7 @@ export default {
 .intro,
 .intro-field,
 .social-list,
-.social,
-#software,
-#web {
+.social {
   display: flex;
 }
 .resume,
@@ -88,9 +87,7 @@ export default {
 }
 .intro,
 .intro-field,
-.social,
-#software,
-#web {
+.social {
   justify-content: center;
   align-items: center;
 }
@@ -100,42 +97,6 @@ export default {
 }
 .intro-field {
   font-size: 3vmax;
-}
-.iden,
-#software,
-#web {
-  height: 60px;
-}
-.iden {
-  color: white;
-  width: fit-content;
-  overflow: hidden;
-}
-#software,
-#web {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#software {
-  background-color: #0088ff;
-  animation: FlipText 3s cubic-bezier(0.5, 0, 0.175, 0.5) infinite alternate;
-  -webkit-animation: FlipText 3s cubic-bezier(0.5, 0, 0.175, 0.5) infinite
-    alternate;
-  -o-animation: FlipText 3s cubic-bezier(0.5, 0, 0.175, 0.5) infinite alternate;
-  -moz-animation: FlipText 3s cubic-bezier(0.5, 0, 0.175, 0.5) infinite
-    alternate;
-}
-#web {
-  background-color: rgb(255, 218, 52);
-}
-.field {
-  text-align: center;
-  padding: 10px;
-}
-.hello {
-  font-size: 4vmax;
-  text-transform: uppercase;
-  padding: 25px 0;
 }
 .social-list {
   padding: 40px 0;
@@ -193,8 +154,12 @@ export default {
 }
 @media(max-width: 700px) {
   .author-info {
-    bottom: 70%;
-    left: calc(50% - 55px);
+    position: initial;
+    top: initial;
+    bottom: initial;
+    left: initial;
+    right: initial;
+    padding-bottom: 20px;
   }
 }
 </style>

@@ -55,7 +55,7 @@ export default {
 #avatar {
   width: 128px;
   height: 128px;
-  background-image: url('/kevin.jpg');
+  background-image: url('/img/kevin.jpg');
   background-position: center;
   background-size: cover;
   border-radius: 50%;

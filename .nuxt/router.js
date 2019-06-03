@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _0a7620a0 = () => interopDefault(import('../pages/interaction.vue' /* webpackChunkName: "pages/interaction" */))
-const _ddb37b52 = () => interopDefault(import('../pages/links.vue' /* webpackChunkName: "pages/links" */))
-const _898a3534 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
-const _7e6c3220 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _3793a445 = () => interopDefault(import('../pages/interaction.vue' /* webpackChunkName: "pages/interaction" */))
+const _2c2d6aa8 = () => interopDefault(import('../pages/links.vue' /* webpackChunkName: "pages/links" */))
+const _6fe7bb3b = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
+const _198cef45 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -83,19 +83,19 @@ export function createRouter() {
 
     routes: [{
       path: "/interaction",
-      component: _0a7620a0,
+      component: _3793a445,
       name: "interaction"
     }, {
       path: "/links",
-      component: _ddb37b52,
+      component: _2c2d6aa8,
       name: "links"
     }, {
       path: "/portfolio",
-      component: _898a3534,
+      component: _6fe7bb3b,
       name: "portfolio"
     }, {
       path: "/",
-      component: _7e6c3220,
+      component: _198cef45,
       name: "index"
     }],
 

@@ -26,6 +26,5 @@ export default {
         },
     ],
     router: {
-        middleware: ['device']
     }
 }
