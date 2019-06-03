@@ -1,5 +1,6 @@
 <template>
   <div class="links">
+    <h2 class="l-title">External</h2>
     <section class="socials">
       <a
         href="https://www.instagram.com/_arkjxu/"
@@ -48,20 +49,25 @@ export default {
 </script>
 
 <style scoped>
+.l-title {
+  font-size: 3vmax;
+  padding: 30px 0;
+}
 .socials, .links {
   display: flex;
-  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
 }
 .links {
+  flex-flow: column;
   height: 100%;
   width: 100%;
   background-color: white;
 }
 .social {
+  flex-flow: row nowrap;
   margin: 0 10px;
-  box-shadow: 0 0 1px 0 black;
+  border: 0.5px solid black;
   padding: 15px;
   border-radius: 50%;
   font-size: 16pt;
