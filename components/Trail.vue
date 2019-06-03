@@ -34,4 +34,10 @@ export default {};
 .page-leave-active .shape {
   height: 700px;
 }
+@media(max-width: 500) {
+  .page-enter .shape,
+  .page-leave-active .shape {
+    height: 400px;
+  }
+}
 </style>
