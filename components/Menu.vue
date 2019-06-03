@@ -7,7 +7,7 @@
             <nuxt-link class="m-links" to="/portfolio">Portfolio</nuxt-link>
         </span>
         <span class="m-options">
-            <a href="/resume.pdf" target="_blank" class="m-links">Resume</a>
+            <a href="/pdf/resume.pdf" target="_blank" class="m-links">Resume</a>
         </span>
         <span class="m-options">
             <nuxt-link class="m-links" to="/interaction">Interaction</nuxt-link>
