@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "nuxt": "^2.8.0"
+  },
+  "devDependencies": {
+    "vue-typer": "^1.2.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "now-build": "nuxt generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
